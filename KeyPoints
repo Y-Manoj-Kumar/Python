@@ -1,0 +1,15 @@
+"""
+In python we can declare a variable without data type which is  
+[a = 10 repsesents int]
+[b = "I am string" represents string]
+[c = true represents bool] like wise the variavles are declared without datatype
+
+We can't concatinate the string with any other datatypes.
+If we have to combine it have to typecast the respective datatype to string
+
+We can check the max and min values directly like print(max(12,33,432,4323,645333)) same as for min value too,
+and math.sqrt and so on.
+For this we need to add "import math".
+
+
+"""

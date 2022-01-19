@@ -11,5 +11,8 @@ We can check the max and min values directly like print(max(12,33,432,4323,64533
 and math.sqrt and so on.
 For this we need to add "import math".
 
+In while loop have use braces instead of fullstop incase of finding length.....
+
+
 
 """

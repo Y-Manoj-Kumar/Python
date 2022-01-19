@@ -20,4 +20,7 @@ elif(marks < 35):
     print("Better luck next time you got failed in this exam")
 else:
     print("Please rewrite the exam")
+
+
+
  

@@ -59,6 +59,21 @@
 
 
 
+# while True:
+
+temp = int(input("Enter the current temperature "))
+if the in temp:
+   print("Yees")
+# if temp > 35 :
+#  print("It is too hot")
+# elif temp < 0 or temp < 35 :
+#  print("Its too cool better stay indoores")
+# elif temp == "":
+#  print("Please enter a value")
+
+    # break
+
+
 
 
 

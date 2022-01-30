@@ -12,14 +12,39 @@
 # print(Company[slice]) #here the slice should be in a "Square Brakcet"
 
 #Conditional Statement
-marks = int(input("How many marks you get in physics: "))
+# marks = int(input("How many marks you get in physics: "))
 
-if(marks >= 35):
-    print("Very Lucky guy You got a pass marks with border marks")
-elif(marks < 35):
-    print("Better luck next time you got failed in this exam")
-else:
-    print("Please rewrite the exam")
+# if(marks >= 35):
+#     print("Very Lucky guy You got a pass marks with border marks")
+# elif(marks < 35):
+#     print("Better luck next time you got failed in this exam")
+# else:
+#     print("Please rewrite the exam")
+
+# role = input("what's your position in this company ? ")
+# from multiprocessing import Manager
+
+ 
+# role = input("Enter your position in yor company?" )
+
+# if role == "Manager".lower():
+#     print("Hooo that's great ")
+# elif role == "Developer".lower():
+#     print("Need to develop your skills more as per future technology")
+# else:
+#     print("go get a job ")
+
+
+def demo(num):
+    if num<1:
+        return 0
+    elif num%2 == 0:
+        return demo(num-1)
+    else:
+        return num+demo(num-2)
+
+print(demo(8))
+
 
 
 
